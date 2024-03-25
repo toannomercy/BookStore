@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,18 +67,6 @@
       "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\categories\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -95,8 +95,8 @@
       "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\migrations\\20240320011316_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\migrations\\20240320011316_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|d:\\workspaces\\thuchanhlaptrinhweb\\lab3\\lab3\\migrations\\20240325084345_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA5C09C-C7DA-40AC-974D-E66A9446AD2F}|Lab3\\Lab3.csproj|solutionrelative:lab3\\migrations\\20240325084345_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,7 +114,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Lab3\\Models\\Product.cs",
+              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Models\\Product.cs",
+              "RelativeToolTip": "Lab3\\Models\\Product.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T00:52:26.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T01:28:19.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Lab3\\Repositories\\IProductRepository.cs",
+              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "Lab3\\Repositories\\IProductRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T01:15:00.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Repositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Lab3\\Repositories\\ICategoryRepository.cs",
@@ -126,40 +163,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Repositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Lab3\\Repositories\\IProductRepository.cs",
-              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Repositories\\IProductRepository.cs",
-              "RelativeToolTip": "Lab3\\Repositories\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T01:15:00.306Z"
+              "DocumentIndex": 1,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Product\\Display.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Product\\Display.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Product\\Display.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Product\\Display.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAywDIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T01:50:05.607Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EFProductRepository.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Repositories\\EFProductRepository.cs",
-              "RelativeDocumentMoniker": "Lab3\\Repositories\\EFProductRepository.cs",
-              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Repositories\\EFProductRepository.cs",
-              "RelativeToolTip": "Lab3\\Repositories\\EFProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T01:15:42.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Lab3\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Lab3\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T03:37:55.871Z",
-              "EditorCaption": ""
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T02:23:18.376Z"
             },
             {
               "$type": "Document",
@@ -169,26 +193,49 @@
               "RelativeDocumentMoniker": "Lab3\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Lab3\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAwBcAAAAuAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAuwDgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T01:21:00.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Lab3\\Models\\Product.cs",
-              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Models\\Product.cs",
-              "RelativeToolTip": "Lab3\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAvAAAA",
+              "DocumentIndex": 23,
+              "Title": "20240325084345_Initial.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Migrations\\20240325084345_Initial.cs",
+              "RelativeDocumentMoniker": "Lab3\\Migrations\\20240325084345_Initial.cs",
+              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Migrations\\20240325084345_Initial.cs",
+              "RelativeToolTip": "Lab3\\Migrations\\20240325084345_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T00:52:26.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T08:43:45.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Lab3\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Lab3\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T03:37:55.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EFProductRepository.cs",
+              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Repositories\\EFProductRepository.cs",
+              "RelativeDocumentMoniker": "Lab3\\Repositories\\EFProductRepository.cs",
+              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Repositories\\EFProductRepository.cs",
+              "RelativeToolTip": "Lab3\\Repositories\\EFProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T01:15:42.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "EFCategoryRepository.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Repositories\\EFCategoryRepository.cs",
               "RelativeDocumentMoniker": "Lab3\\Repositories\\EFCategoryRepository.cs",
@@ -200,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\appsettings.json",
               "RelativeDocumentMoniker": "Lab3\\appsettings.json",
@@ -212,19 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lab3\\Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Lab3\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAAkAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-20T01:28:19.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Program.cs",
               "RelativeDocumentMoniker": "Lab3\\Program.cs",
@@ -236,19 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Lab3\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Lab3\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-20T02:23:18.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Categories\\Add.cshtml",
               "RelativeDocumentMoniker": "Lab3\\Views\\Categories\\Add.cshtml",
@@ -260,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Display.cshtml",
               "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Categories\\Display.cshtml",
               "RelativeDocumentMoniker": "Lab3\\Views\\Categories\\Display.cshtml",
@@ -272,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "Lab3\\Views\\Categories\\Index.cshtml",
@@ -281,18 +304,6 @@
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-20T03:42:00.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Display.cshtml",
-              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Product\\Display.cshtml",
-              "RelativeDocumentMoniker": "Lab3\\Views\\Product\\Display.cshtml",
-              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Product\\Display.cshtml",
-              "RelativeToolTip": "Lab3\\Views\\Product\\Display.cshtml",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAADwAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-20T01:50:05.607Z"
             },
             {
               "$type": "Document",
@@ -320,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Views\\Categories\\Update.cshtml",
               "RelativeDocumentMoniker": "Lab3\\Views\\Categories\\Update.cshtml",
@@ -389,18 +400,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T00:55:15.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20240320011316_Initial.cs",
-              "DocumentMoniker": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Migrations\\20240320011316_Initial.cs",
-              "RelativeDocumentMoniker": "Lab3\\Migrations\\20240320011316_Initial.cs",
-              "ToolTip": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\Migrations\\20240320011316_Initial.cs",
-              "RelativeToolTip": "Lab3\\Migrations\\20240320011316_Initial.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T01:13:16.783Z"
             }
           ]
         }

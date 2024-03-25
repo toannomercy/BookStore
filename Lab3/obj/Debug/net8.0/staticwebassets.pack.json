@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\images\\hoangtube.jpg"
     },
     {
+      "Id": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\wwwroot\\images\\laptrinhC.jpg",
+      "PackagePath": "staticwebassets\\images\\laptrinhC.jpg"
+    },
+    {
       "Id": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\wwwroot\\images\\nguoigiauconhatthanhbabylon.jpg",
       "PackagePath": "staticwebassets\\images\\nguoigiauconhatthanhbabylon.jpg"
     },

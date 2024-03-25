@@ -1,59 +1,50 @@
 ﻿@model IEnumerable<Lab3.Models.Product>
 
-@{
-    ViewData["Title"] = "Index";
-}
-
-<h1>Sách</h1>
-
-<p>
-    <a asp-action="Add"><button type="button" class="btn btn-primary">Create new</button></a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImageUrl)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category.Name)
-            </td>
-            <td>
-                <img src="@item.ImageUrl" alt="Book Image" style="max-width: 200px; max-height: 200px; border-radius: 10px;" />
-            </td>
-            <td>
-                    <a asp-action="Update" asp-route-id="@item.Id"><button type="button" class="btn btn-success">Edit</button></a> 
-                    <a asp-action="Display" asp-route-id="@item.Id"><button type="button" class="btn btn-info">Detail</button></a> 
-                    <a asp-action="Delete" asp-route-id="@item.Id"><button type="button" class="btn btn-danger">Delete</button></a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container">
+    <div class="row">
+        <div style="min-width: 202px" class="col-md-3">
+            <h1>Thể loại</h1>
+            <div class="list-group list-group-flush">
+                @foreach (var categoryCountPair in ViewBag.BookCountByCategory)
+                {
+                    <a href="#" class="list-group-item list-group-item-action text-info">
+                        @categoryCountPair.Key (@categoryCountPair.Value)
+                    </a>
+                }
+            </div>
+            <a class="text-decoration-none mt-4" asp-controller="Product" asp-action="Add">
+                <button style="min-width: 100%" type="button" class="btn btn-success">Thêm sách</button>
+            </a>
+        </div>
+        <div class="col-md-9">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                @foreach (var book in Model)
+                {
+                    <div style="min-width:300px" class="col">
+                        <div class="card">
+                            <div class="card-header bg-dark">
+                                <h5 class="card-title text-white">@book.Name</h5>
+                                <a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">Edit</a>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Thể loại: @book.Category.Name</p>
+                                <img style="max-width: 80%" src="@book.ImageUrl" class="card-img-top img-fluid" alt="Hình Ảnh Sách">
+                            </div>
+                            <div class="card-footer d-flex justify-content-end">
+                                <a class="text-decoration-none me-4" asp-controller="Product" asp-action="Display" asp-route-id="@book.Id">
+                                    <button type="button" class="btn btn-success">Chi Tiết</button>
+                                </a>
+                                <a class="text-decoration-none me-2" asp-controller="Product" asp-action="Update" asp-route-id="@book.Id">
+                                    <button type="button" class="btn btn-primary">Sửa</button>
+                                </a>
+                                <a class="text-decoration-none" asp-controller="Product" asp-action="Delete" asp-route-id="@book.Id">
+                                    <button type="button" class="btn btn-danger">Xóa</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

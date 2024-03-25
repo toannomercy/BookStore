@@ -39,5 +39,11 @@ namespace Lab3.Repositories
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();
         }
+
+        public async Task<int> CountBooksByCategoryAsync(int categoryId)
+        {
+            // Sử dụng LINQ để đếm số lượng sách có categoryId tương ứng
+            return await _context.Products.CountAsync(b => b.CategoryId == categoryId);
+        }
     }
 }

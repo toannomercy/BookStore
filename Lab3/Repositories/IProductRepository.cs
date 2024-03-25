@@ -9,5 +9,7 @@ namespace Lab3.Repositories
         Task AddAsync(Product product);
         Task UpdateAsync(Product product);
         Task DeleteAsync(int id);
+        Task<int> CountBooksByCategoryAsync(int categoryId);
+
     }
 }

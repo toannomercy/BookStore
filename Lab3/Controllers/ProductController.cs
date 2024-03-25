@@ -19,6 +19,18 @@ namespace Lab3.Controllers
         public async Task<IActionResult> Index()
         {
             var products = await _productRepository.GetAllAsync();
+            var categories = await _categoryRepository.GetAllAsync();
+
+            var bookCountByCategory = new Dictionary<string, int>();
+
+            foreach (var category in categories)
+            {
+                // Đếm số lượng sách của từng thể loại
+                var bookCount = await _productRepository.CountBooksByCategoryAsync(category.Id);
+                bookCountByCategory[category.Name] = bookCount;
+            }
+
+            ViewBag.BookCountByCategory = bookCountByCategory;
             return View(products);
         }
         public async Task<IActionResult> Add()
@@ -35,18 +47,16 @@ namespace Lab3.Controllers
             {
                 if (imageUrl != null)
                 {
-                    // Lưu hình ảnh đại diện tham khảo bài 02 hàm SaveImage
                     product.ImageUrl = await SaveImage(imageUrl);
                 }
                 await _productRepository.AddAsync(product);
                 return RedirectToAction(nameof(Index));
             }
-            // Nếu ModelState không hợp lệ, hiển thị form với dữ liệu đã nhập
             var categories = await _categoryRepository.GetAllAsync();
             ViewBag.Categories = new SelectList(categories, "Id", "Name");
             return View(product);
         }
-        // Viết thêm hàm SaveImage (tham khảo bài 02)
+
         private async Task<string> SaveImage(IFormFile image)
         {
             var savePath = Path.Combine("wwwroot/images", image.FileName);
@@ -55,7 +65,7 @@ namespace Lab3.Controllers
             {
                 await image.CopyToAsync(fileStream);
             }
-            return "/images/" + image.FileName; // Trả về đường dẫn tương đối
+            return "/images/" + image.FileName;
         }
         public async Task<IActionResult> Display(int id)
         {

@@ -9,7 +9,7 @@ namespace Lab3.Models
         [Required, StringLength(100)]
         [DisplayName("Tên sách")]
         public string Name { get; set; }
-        [Range(0.01, 10000.00)]
+
         [DisplayName("Giá")]
         public decimal Price { get; set; }
         [DisplayName("Mô tả")]

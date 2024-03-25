@@ -1,54 +1,4 @@
 ﻿@* @model Lab3.Models.Product
-
-@{
-    ViewData["Title"] = "Display";
-}
-
-<h1>Display</h1>
-
-<div>
-    <h4>Product</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImageUrl)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImageUrl)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Category)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Category.Name)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
- *@
-
-@model Lab3.Models.Product
 <h2>@Model.Name</h2>
 <div>
     <h3>Price: @Model.Price</h3>
@@ -58,4 +8,49 @@
         <img src="@Model.ImageUrl" alt="Product Image" style="max-width:400px;" />
     }
 </div>
-<a asp-action="Index"><button type="button" class="btn btn-info mt-4">Back</button></a>
+<a asp-action="Index"><button type="button" class="btn btn-info mt-4">Back</button></a> *@
+@model Lab3.Models.Product
+
+@{
+    ViewData["Title"] = "Display";
+}
+
+
+
+<div class="row">
+    <h4>Thông tin sách</h4>
+    <hr />
+    <div class="col-md-3 mt-4">
+        <img src="@Model.ImageUrl" alt="Book Image" style="max-width: 400px; max-height: 400px; border-radius: 5px" />
+    </div>
+    <div class="col-md-1"></div>
+    <dl class="col-md-8 mt-4">
+
+        <dd class="col-sm-10 mb-3">
+            <strong>Tên sách:</strong> @Html.DisplayFor(model => model.Name)
+        </dd>
+@*         <dd class="col-sm-10 mb-3">
+            <strong>Tác giả:</strong> @Html.DisplayFor(model => model.Author)
+        </dd> *@
+        <dd class="col-sm-10 mb-3">
+            <strong>Thể loại:</strong> @Model.Category.Name
+        </dd>
+        <dd class="col-sm-10 mb-3">
+            <strong>Mô tả:</strong><br />@Html.DisplayFor(model => model.Description)
+        </dd>
+        <dd class="col-sm-10 text-danger mb-3">
+            <strong>Giá bán: @string.Format("{0:# ##0}", Model.Price) VNĐ</strong>
+        </dd>
+        <div class="col-sm-10">
+            <a class="text-decoration-none" asp-action="Index" asp-route-id="@Model?.Id">
+                <button type="button" class="btn btn-danger">Đặt Mua</button>
+            </a>
+            <a class="text-decoration-none" asp-action="Index">
+                <button type="button" class="btn btn-primary">Trở Lại</button>
+            </a>
+        </div>
+    </dl>
+
+</div>
+
+

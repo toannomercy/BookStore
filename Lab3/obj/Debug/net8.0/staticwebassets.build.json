@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hDZzZ2XlNUhMu0HBQcbJFstHSElz14DBz6vwMnUk24A=",
+  "Hash": "2iQ7AtOQfeFMlxm/ba53CSuZGLQ1OPDxaTJ+Q6qxkqg=",
   "Source": "Lab3",
   "BasePath": "_content/Lab3",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\hoangtube.jpg"
+    },
+    {
+      "Identity": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\wwwroot\\images\\laptrinhC.jpg",
+      "SourceId": "Lab3",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\wwwroot\\",
+      "BasePath": "_content/Lab3",
+      "RelativePath": "images/laptrinhC.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\laptrinhC.jpg"
     },
     {
       "Identity": "D:\\WorkSpaces\\ThucHanhLapTrinhWeb\\Lab3\\Lab3\\wwwroot\\images\\nguoigiauconhatthanhbabylon.jpg",

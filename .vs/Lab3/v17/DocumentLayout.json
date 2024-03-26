@@ -130,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -143,10 +143,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -180,7 +176,7 @@
               "RelativeDocumentMoniker": "Lab3\\Views\\Shared\\_LoginPartial.cshtml",
               "ToolTip": "D:\\WorkSpaces\\BookStore\\Lab3\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeToolTip": "Lab3\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-26T14:56:43.819Z",
               "EditorCaption": ""

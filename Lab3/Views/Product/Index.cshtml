@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div style="min-width: 202px" class="col-md-3">
-            <h1>Thể loại</h1>
+            <h1>Category</h1>
             <div class="list-group list-group-flush">
                 @foreach (var categoryCountPair in ViewBag.BookCountByCategory)
                 {
@@ -13,7 +13,7 @@
                 }
             </div>
             <a class="text-decoration-none mt-4" asp-controller="Product" asp-action="Add">
-                <button style="min-width: 100%" type="button" class="btn btn-success">Thêm sách</button>
+                <button style="min-width: 100%" type="button" class="btn btn-success"><i class="bi bi-plus-circle"></i> Add</button>
             </a>
         </div>
         <div class="col-md-9">
@@ -24,21 +24,21 @@
                         <div class="card">
                             <div class="card-header bg-dark">
                                 <h5 class="card-title text-white">@book.Name</h5>
-                                <a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">Edit</a>
+                                <a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" asp-controller="Product" asp-action="Update" asp-route-id="@book.Id">Edit</a>
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Thể loại: @book.Category.Name</p>
-                                <img style="max-width: 80%" src="@book.ImageUrl" class="card-img-top img-fluid" alt="Hình Ảnh Sách">
+                                <p class="card-text">Category: @book.Category.Name</p>
+                                <img style="max-width: 80%" src="@book.ImageUrl" class="card-img-top img-fluid" alt="Book Image">
                             </div>
                             <div class="card-footer d-flex justify-content-end">
                                 <a class="text-decoration-none me-4" asp-controller="Product" asp-action="Display" asp-route-id="@book.Id">
-                                    <button type="button" class="btn btn-success">Chi Tiết</button>
+                                    <button type="button" class="btn btn-success">Detail</button>
                                 </a>
                                 <a class="text-decoration-none me-2" asp-controller="Product" asp-action="Update" asp-route-id="@book.Id">
-                                    <button type="button" class="btn btn-primary">Sửa</button>
+                                    <button type="button" class="btn btn-primary">Update</button>
                                 </a>
                                 <a class="text-decoration-none" asp-controller="Product" asp-action="Delete" asp-route-id="@book.Id">
-                                    <button type="button" class="btn btn-danger">Xóa</button>
+                                    <button type="button" class="btn btn-danger">Delete</button>
                                 </a>
                             </div>
                         </div>

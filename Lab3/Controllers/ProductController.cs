@@ -1,10 +1,12 @@
 ﻿using Lab3.Models;
 using Lab3.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Lab3.Controllers
 {
+
     public class ProductController : Controller
     {
         private readonly IProductRepository _productRepository;
@@ -15,7 +17,7 @@ namespace Lab3.Controllers
             _productRepository = productRepository;
             _categoryRepository = categoryRepository;
         }
-
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             var products = await _productRepository.GetAllAsync();
@@ -33,6 +35,8 @@ namespace Lab3.Controllers
             ViewBag.BookCountByCategory = bookCountByCategory;
             return View(products);
         }
+        //[Area("Admin")]
+        [Authorize(Roles = SD.Role_Admin)]
         public async Task<IActionResult> Add()
         {
             var categories = await _categoryRepository.GetAllAsync();
@@ -77,6 +81,7 @@ namespace Lab3.Controllers
             return View(product);
         }
         // Hiển thị form cập nhật sản phẩm
+        [Authorize(Roles = SD.Role_Admin)]
         public async Task<IActionResult> Update(int id)
         {
             var product = await _productRepository.GetByIdAsync(id);
@@ -128,6 +133,8 @@ namespace Lab3.Controllers
             ViewBag.Categories = new SelectList(categories, "Id", "Name");
             return View(product);
         }
+
+        [Authorize(Roles = SD.Role_Admin)]
         public async Task<IActionResult> Delete(int id)
         {
             var product = await _productRepository.GetByIdAsync(id);

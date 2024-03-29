@@ -18,20 +18,26 @@ namespace Lab3.Controllers
             _categoryRepository = categoryRepository;
         }
         [Authorize]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString, string categoryName)
         {
             var products = await _productRepository.GetAllAsync();
             var categories = await _categoryRepository.GetAllAsync();
 
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                products = products.Where(p => p.Name.ToLower().Contains(searchString.ToLower()));
+            }
             var bookCountByCategory = new Dictionary<string, int>();
-
+            if (!string.IsNullOrEmpty(categoryName))
+            {
+                products = products.Where(p => p.Category.Name == categoryName);
+            }
             foreach (var category in categories)
             {
                 // Đếm số lượng sách của từng thể loại
                 var bookCount = await _productRepository.CountBooksByCategoryAsync(category.Id);
                 bookCountByCategory[category.Name] = bookCount;
             }
-
             ViewBag.BookCountByCategory = bookCountByCategory;
             return View(products);
         }

@@ -45,5 +45,11 @@ namespace Lab3.Repositories
             // Sử dụng LINQ để đếm số lượng sách có categoryId tương ứng
             return await _context.Products.CountAsync(b => b.CategoryId == categoryId);
         }
+        //public async Task<Product> GetByNameAsync(string productName)
+        //{
+        //    // return await _context.Products.FindAsync(id);
+        //    // lấy thông tin kèm theo category
+        //    return await _context.Products.Include(p => p.Category).FirstOrDefaultAsync(p => p.Name.Contains(productName));
+        //}
     }
 }

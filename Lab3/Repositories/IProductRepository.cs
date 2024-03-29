@@ -11,5 +11,6 @@ namespace Lab3.Repositories
         Task DeleteAsync(int id);
         Task<int> CountBooksByCategoryAsync(int categoryId);
 
+        //Task<Product> GetByNameAsync(string productName);
     }
 }

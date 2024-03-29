@@ -1,13 +1,24 @@
 ﻿@model IEnumerable<Lab3.Models.Product>
 
 <div class="container">
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <form class="d-flex" asp-action="Index" asp-controller="Product">
+                <input name="searchString" class="form-control me-1" type="search" placeholder="Search Name" aria-label="Search Name">
+                <button class="btn btn-danger me-1 col-md-1 btn-lg" type="submit"><i class="bi bi-search"></i></button>
+                <a asp-action="Index" class="text-white">
+                    <button class="btn btn-primary" type="submit">Full List</button>
+                </a>
+            </form>
+        </div>
+    </div>
     <div class="row">
         <div style="min-width: 202px" class="col-md-3">
             <h1>Category</h1>
             <div class="list-group list-group-flush">
                 @foreach (var categoryCountPair in ViewBag.BookCountByCategory)
                 {
-                    <a href="#" class="list-group-item list-group-item-action text-info">
+                    <a class="list-group-item list-group-item-action text-info" onclick="redirectToIndex('@categoryCountPair.Key')">
                         @categoryCountPair.Key (@categoryCountPair.Value)
                     </a>
                 }
@@ -48,3 +59,13 @@
         </div>
     </div>
 </div>
+
+<script>
+    function redirectToIndex(categoryName) {
+        // Giải mã categoryName
+        var decodedCategoryName = decodeURIComponent(categoryName);
+
+        // Chuyển hướng đến action Index của controller Product với tham số categoryName
+        window.location.href = '/Product/Index?categoryName=' + encodeURIComponent(decodedCategoryName);
+    }
+</script>
